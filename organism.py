@@ -8,7 +8,7 @@ env = gym.make("Organism-v0")
 env.reset() # reset environment to a new, random state
 
 q_table = np.zeros([env.observation_space.n, env.action_space.n])
-
+print('hey there')
 
 """Training the agent"""
 print("How many generations ?")
